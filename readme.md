@@ -44,6 +44,16 @@ BuildNumber=18363
 PlatformId=2
 ```
 
+On not Windows (for example, Linux)
+
+```
+$ ./cmd/ver/ver
+Major=0
+Minor=0
+BuildNumber=0
+PlatformId=0
+```
+
 This package uses RtlGetVersion API which does not depend on manifest files.
 
 Thanks to [YAMAMOTO's documents (written in Japanese)](http://yamatyuu.net/computer/program/sdk/base/RtlGetVersion/index.html)
